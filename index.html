@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Neha Panwar - Web Developer Portfolio">
+    <meta name="keywords" content="web developer, frontend developer, portfolio, Neha Panwar">
+    <title>Neha Panwar - Portfolio</title>
+
+    <link rel="icon" href="/assets/android-chrome-192x192-WgvmSOJ8.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="dist/assets/android-chrome-192x192-WgvmSOJ8-WgvmSOJ8.png">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <link rel="stylesheet" crossorigin href="style.css">
+</head>
+
+<body>
+    <header class="nav">
+        <div class="logo">
+            <a href="#home" aria-label="Home"><img src="dist/assets/logo-BDKmCc1e.png" alt=""></a>
+        </div>
+        <nav class="navbar" aria-label="Main navigation">
+            <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home" aria-current="page" id="home-nav">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="mode-toggle" class="theme-toggle" onclick="toggleMode()" aria-label="Toggle dark mode">
+            <i id="theme-icon" class="fas fa-sun"></i>
+        </button>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, It's Me</h3>
+                <h1>Neha Panwar</h1>
+                <h3>And I'm a <span class="text">And I'm</h3>
+                <p>Proficient in HTML, CSS, and JavaScript, I'm a frontend developer <br> committed to continuous learning. My current focus includes mastering <br> and venturing into backend development.</p>
+                <div class="home-sci">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.whatsapp.com/" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/neha-panwar-3a4789222/" aria-label="LinkedIn"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="image/AtsRESUME.pdf" download class="btn-box">Download CV</a>
+            </div>
+
+            <div class="about-img">
+                <img src="dist/assets/WhatsApp Image 2024-03-30 at 12.59.27-CzgDbHTZ-CzgDbHTZ.jpeg" alt="Neha Panwar"
+                    loading="lazy">
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="dist/assets/img2-Beck1Fbr.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <h2>About <span>Me</span></h2>
+                <div class="line"></div>
+                <h4>Frontend Developer</h4>
+                <p>Hi, I'm Neha Panwar — a recent MCA graduate from Uttaranchal University and an aspiring Front-End
+                    Developer passionate about building responsive, user-friendly websites.<span id="moreContent" >As a fresher, I’ve
+                        developed a strong foundation in HTML, CSS, JavaScript, and React, and I enjoy creating clean,
+                        interactive web interfaces that offer a great user experience.
+
+                        While I'm primarily focused on front-end development, I also have a basic understanding of Java
+                        and am beginning to explore backend concepts to enhance my overall development skills.
+
+                        I believ`e in learning by doing, and I'm constantly working on projects that help me grow and
+                        stay updated with industry trends. I'm now looking for an opportunity where I can contribute,
+                        learn from experienced professionals, and grow into a skilled front-end developer.</p>
+
+
+                </span></p>
+
+                <button type="button" class="btn-box" id="readMoreBtn">Read More</button>
+            </div>
+        </section>
+        <hr>
+
+        <!-- education -->
+        <section class="education" id="education">
+            <h2>Education</h2>
+            <div class="line"></div>
+
+            <div class="education-content">
+
+                <div class="education-item">
+                    <div class="box">
+                        <h3><i class="fa-solid fa-graduation-cap"></i> Master's in Computer Applications</h3>
+                        <p>CGPA:7.84</p>
+                    </div>
+                    <span class="education-duration"> <i class="fa-regular fa-calendar"></i> 2022 - 2024</span>
+                    <p>Uttaranchal University, India</p>
+
+                </div>
+                <div class="education-item">
+                    <div class="box">
+                        <h3><i class="fa-solid fa-graduation-cap"></i> Bachelor's in Computer Applications</h3>
+                        <p>CGPA: 8.01</p>
+
+                    </div>
+                    <span class="education-duration"> <i class="fa-regular fa-calendar"></i> 2019 - 2022</span>
+                    <p>Shri Guru Ram Rai University, Dehradun, India</p>
+
+                </div>
+                <div class="education-item">
+                    <div class="box">
+                        <h3> Higher Secondary Certificate(CBSE) -12th</h3>
+                        <p>CGPA:</p>
+                    </div>
+                    <span class="education-duration"> <i class="fa-regular fa-calendar"></i> 2019</span>
+                    <p><i class="fa-solid fa-school"></i> Shri Guru Ram Rai School, Dehradun, India</p>
+
+                </div>
+                <div class="education-item">
+                    <div class="box">
+                        <h3> Secondary School Certificate(CBSE) -10th</h3>
+                        <p>CGPA: 7.2</p>
+                    </div>
+                    <span class="education-duration"> <i class="fa-regular fa-calendar"></i> 2019</span>
+                    <p><i class="fa-solid fa-school"></i> Shri Guru Ram Rai School, Dehradun, India</p>
+
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <!-- Skills -->
+        <section class="skills py-12" id="Skill">
+            <h2 class="text-4xl text-center  text-white ">My Skills</h2>
+            <div class="line"></div>
+
+            <h1 class="text-2xl text-center ">Technologies</h1>
+            <div class="w-24 h-1 bg-teal-500 mx-auto mb-9 rounded-full"></div>
+
+            <div class="flex justify-center flex-wrap gap-8 mt-9">
+                <div class="skill-item text-center">
+                    <div class="relative w-32 h-32 mb-4 transform  flex justify-center items-center">
+                        <img src="dist/assets/css-CVEryGHC-CVEryGHC.png" alt="CSS" class="w-24 h-24">
+                    </div>
+                    <h3 class="text-white text-lg font-semibold">Java</h3>
+                </div>
+                <div class="skill-item text-center">
+                    <div class="relative w-32 h-32 mb-4 transform rotate-45 flex justify-center items-center">
+                        <img src="dist/assets/html-D8OF6CEF-D8OF6CEF.png" alt="HTML" class="w-24 h-24 transform -rotate-45">
+                    </div>
+                    <h3 class="text-white text-lg font-semibold">HTML</h3>
+                </div>
+                <div class="skill-item text-center">
+                    <div class="relative w-32 h-32 mb-4 transform  flex justify-center items-center">
+                        <img src="dist/assets/css-CVEryGHC-CVEryGHC.png" alt="CSS" class="w-24 h-24">
+                    </div>
+                    <h3 class="text-white text-lg font-semibold">CSS</h3>
+                </div>
+
+                <div class="skill-item text-center">
+                    <div class="relative w-32 h-32 mb-4 transform flex justify-center items-center">
+                        <img src="dist/assets/javas-CxIQSbbq-CxIQSbbq.png" alt="JavaScript" class="w-24 h-24 ">
+                    </div>
+                    <h3 class="text-white text-lg font-semibold">JavaScript</h3>
+                </div>
+                <div class="skill-item text-center">
+                    <div class="relative w-32 h-32 mb-4 transform  flex justify-center items-center">
+                        <img src="dist/assets/tailwind-BeplsA4J-BeplsA4J.png" alt="Tailwind CSS" class="w-24 h-24 ">
+                    </div>
+                    <h3 class="text-white text-lg font-semibold">Tailwind CSS</h3>
+                </div>
+                <div class="skill-item text-center">
+                    <div class="relative w-32 h-32 mb-4 transform  flex justify-center items-center">
+                        <img src="dist/assets/mysql-logo-CZ9iprMa-CZ9iprMa.png" alt="Tailwind CSS" class="w-24 h-24 ">
+                    </div>
+                    <h3 class="text-white text-lg font-semibold">MySQL</h3>
+                </div>
+
+            </div>
+
+        </section>
+        <hr>
+
+        <!-- project -->
+
+        <section class="project-section" id="project">
+            <h2 class="section-title">My <span>Projects</span></h2>
+            <div class="line"></div>
+
+            <div class="project-container">
+                <div class="project-card">
+                    <img src="dist/assets/log-Dua7_WdL.png" alt="Project 1">
+                    <h3>Rental Property Finder</h3>
+                    <p>A web app that helps users search and filter rental properties with ease using Node.js and
+                        Bootstrap.</p>
+                    <div class="project-links">
+                        <a href="https://rental-propertyfi.netlify.app/" target="_blank">Live Demo</a>
+                        <a href="https://github.com/your-repo-link" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="dist/assets/spot-GaRpRNpy.png" alt="Project 2">
+                    <h3>Music Player</h3>
+                    <p>A sleek web music player with custom playback controls and a centered seek bar using HTML, CSS,
+                        and JavaScript.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live Demo</a>
+                        <a href="https://github.com/your-repo-link" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Add more project-card blocks as needed -->
+            </div>
+        </section>
+
+
+
+
+        <!-- contact -->
+        <section class="contact" id="contact">
+            <h2>Contact With <span>Me</span></h2>
+            <div class="line"></div>
+            <div class="content" id="content">
+
+                <div class="contact-info">
+                    <div class="contact-img">
+                        <img src="/assets/contact%20page-B9lxZRyI.png" alt="">
+
+                        <p>Feel free to reach out to me via email or through my social media profiles. I'm open to
+                            discussing new opportunities or collaborations.</p>
+
+                        <ul>
+                            <li><i class="fa-solid fa-envelope"></i> nehapanwar252001@gmail.com</li>
+                            <li><i class="fa-solid fa-phone"></i> +91 7668866146</li>
+                            <li><i class="fa-solid fa-map-marker-alt"></i>Dehradun, India</li>
+                        </ul>
+                        <div class="home-sci">
+                            <a href="#" style="--i:7"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://www.whatsapp.com/" aria-label="WhatsApp"><i
+                                    class="fa-brands fa-whatsapp"></i></a>
+
+                            <a href="#" style="--i:8"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/neha-panwar-3a4789222/" style="--i:10"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <script src="script.js"></script>
+    </main>
+</body>
+
+</html>
